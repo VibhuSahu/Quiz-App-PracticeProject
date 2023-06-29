@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header.mode {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-color: #218380;
+}
