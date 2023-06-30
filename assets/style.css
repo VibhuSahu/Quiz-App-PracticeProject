@@ -3,9 +3,38 @@
     padding: 0;
 }
 
+
+/* Styling the header box. */
 header.mode {
+    /* padding the element */
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 25px;
-    background-color: #218380;
+
+    /* placing the element */
+    display: flex;
+    justify-content: space-between;
+
+    /* Giving the colour to the text and background. */
+    background-color: #218380;  /* the background colour */
+    color: #ffffff; /* The colour of text */
+}
+
+
+div.viewHighscores {
+
+} 
+
+div.countdown {
+
+}
+
+
+/* Styling the main tag  */
+main.mainpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
 }
