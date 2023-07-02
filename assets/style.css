@@ -21,12 +21,19 @@ header.mode {
     color: #ffffff; /* The colour of text */
 }
 
+header {
+    font-family: Verdana;
+    font-size: 24px;
+    font-style: normal;
+}
+
 
 div.viewHighscores {
 
 } 
 
 div.countdown {
+    display: flex;
 
 }
 
@@ -36,5 +43,4 @@ main.mainpage {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 88vh;
 }

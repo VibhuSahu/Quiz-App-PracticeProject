@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Codedamn - Quiz Project</title>
-    <script src="./assets/timeLogic.js"></script>
 </head>
 
 <body>
@@ -19,15 +18,17 @@
             <a id=leaderboard>View Highscores</a><i class="fas fa-hand-point-left fa-lg"></i>
         </div>
         <div class="countdown">
-        time
+        <p>Time:&nbsp;</p> <div id="timer">50</div>
+        <script src="./assets/timeLogic.js"></script>
         </div>
 
     </header>
     
     <!-- The main content or main display. -->
-    <main class="mainpage">
+    <main class="mainpage" style="vertical-align: bottom;">
 
         <h1>Hello World!</h1>
+        <button id="startBtn" onclick="startCountdown()">Start</button>
     </main>
     <script src="assets/script.js"></script>
 </body>
